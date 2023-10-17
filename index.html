@@ -1,0 +1,543 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sourav Studio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="Style.css">
+
+    <body>
+        <!-- navigation -->
+        <main>
+            <nav class="navbar-expand-lg navbar shadow navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><i class="fa-solid fa-music"></i> &nbsp; Sourav<br>&nbsp;&nbsp;&nbsp; &nbsp;<strong>Studio</strong></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Favourites</a>
+                            </li>
+
+
+                        </ul>
+                        <form class="d-flex " role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+
+                        </form>
+                        <button type="button" class=" me-4 btn btn-primary position-relative ">
+                            Inbox
+                            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                              99+
+                              <span class="visually-hidden">unread messages</span>
+                              
+                            </span>
+                          </button>
+
+                        <li class="nav-item dropdown text-white me-3 " style="list-style-type: none; ">
+                            <button type="button " class="btn btn-dark position-relative ">
+
+                        <img class="rounded-circle mx-4 " style="width:40px; height:40px; " src="images\IMG_20200430_212122_004.jpg ">
+                        <a class="nav-link dropdown-toggle me-2 " href="# " role="button " data-bs-toggle="dropdown " aria-expanded="false ">
+                            Hi, Sourav !
+                            </a>
+                        
+
+
+                        <ul class="dropdown-menu ">
+                            <li><a class="dropdown-item " href="# ">Action</a></li>
+                            <li><a class="dropdown-item " href="# ">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider ">
+                            </li>
+                            <li><a class="dropdown-item " href="# ">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <span class="position-absolute top-1 start-10 translate-middle p-1 "></span>
+                        <span class="visually-hidden ">New alerts</span>
+                        </span>
+                        </button>
+                    </div>
+                </div>
+            </nav>
+            <!-- navigation -->
+
+            <!-- main area-->
+            <div class="hero-area text-white p-2">
+                <ul class="nav  nav-pills mb-3" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Features</button>
+                    </li>
+                    <li class="nav-item " role="presentation">
+                        <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Trending</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">New Releases</button>
+                    </li>
+
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">1</div>
+                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">2</div>
+                    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">3</div>
+
+                </div>
+                <!--song-items-->
+                <div class="song-small m-1 col-md-6 row  align-items-center">
+
+                    <div class="col-1">01</div>
+                    <div class="col d-flex">
+                        <img class="" src="https://images.unsplash.com/photo-1460723237483-7a6dc9d0b212?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8c2luZ2VyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60" style="width:50px; height:50px; object-fit:cover;">
+                        <div class=""> <small>Ed Sheeran </small></div>
+                    </div>
+                    <div class="col-2">
+                        05:00 <i class="fa-duotone fa-play"></i> </div>
+
+                </div>
+                <div class="song-small-2 m-1 col-md-6 row  align-items-center">
+
+                    <div class="col-1">02</div>
+                    <div class="col d-flex">
+                        <img class="" src="https://images.unsplash.com/photo-1600962815726-457c46a12681?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80" style="width:50px; height:50px; object-fit:cover;">
+                        <div class=""> <small>Eminem</small></div>
+                    </div>
+                    <div class="col-2">
+                        05:00 <i class="fa-duotone fa-play"></i> </div>
+
+                </div>
+                <div class="song-small-3 m-1 col-md-6 row  align-items-center">
+
+                    <div class="col-1">03</div>
+                    <div class="col d-flex">
+                        <img class="" src="https://images.unsplash.com/photo-1593697821252-0c9137d9fc45?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHNpbmdlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60" style="width:50px; height:50px; object-fit:cover;">
+                        <div class=""> <small>Kali Uchis </small></div>
+                    </div>
+                    <div class="col-2">
+                        05:00 <i class="fa-duotone fa-play"></i> </div>
+
+                </div>
+                <div class="song-small-4 m-1 col-md-6 row  align-items-center">
+
+                    <div class="col-1">04</div>
+                    <div class="col d-flex">
+                        <img class="" src="https://media.istockphoto.com/id/1461458696/photo/close-up-of-african-man-enjoying-singing.jpg?b=1&s=170667a&w=0&k=20&c=e7nREzy1qUVInvDFg2YRENVOQaTzZlUZ86Bqsjf1h9k=" style="width:50px; height:50px; object-fit:cover;">
+                        <div class=""> <small>Wiz Khalifa </small></div>
+                    </div>
+                    <div class="col-2">
+                        05:00 </div>
+
+                </div>
+
+
+
+
+
+
+
+
+            </div>
+            <h5 class="song-category-title mx-5 pt-4">Liked songs<small class="float-end"><a href="">View more <i class="bi bi-box-arrow-up-right"></i></a></small></h5>
+
+            <!-- start category area-->
+            <section class="  pt-2 p-4 mx-5 d-flex justify-content-center" style="flex-wrap: wrap; background-color: aqua;">
+
+
+                <!--song card start-->
+                <div class="m-4" style="width: 200px;">
+                    <div style="position: relative;">
+                        <img src="images/04.jpg" class="big-song-img rounded img-fluid">
+                        <a href="#">
+                            <div class="big-song-hover ">
+                                <i class="h1 bi bi-play"></i>
+                            </div>
+                        </a>
+                    </div>
+                    <div>
+                        <div class="lead text-white">Privacy</div>
+                        <small class="text-muted">Blue</small>
+                    </div>
+                </div>
+                <!--song card end-->
+
+                <!--song card start-->
+                <div class="m-4" style="width: 200px;">
+                    <div style="position: relative;">
+                        <img src="images/05.jpg" class="big-song-img rounded img-fluid">
+                        <a href="#">
+                            <div class="big-song-hover ">
+                                <i class="h1 bi bi-play"></i>
+                            </div>
+                        </a>
+                    </div>
+                    <div>
+                        <div class="lead text-white">Desi Kalakaar</div>
+                        <small class="text-muted">Yo Yo Honey Singh</small>
+                    </div>
+                </div>
+                <!--song card end-->
+
+                <!--song card start-->
+                <div class="m-4" style="width: 200px;">
+                    <div style="position: relative;">
+                        <img src="images/06.jpg" class="big-song-img rounded img-fluid">
+                        <a href="#">
+                            <div class="big-song-hover ">
+                                <i class="h1 bi bi-play"></i>
+                            </div>
+                        </a>
+                    </div>
+                    <div>
+                        <div class="lead text-white">Never coming home</div>
+                        <small class="text-muted">Ed Sheeran</small>
+                    </div>
+                </div>
+                <!--song card end-->
+
+                <!--song card start-->
+                <div class="m-4" style="width: 200px;">
+                    <div style="position: relative;">
+                        <img src="images/07.jpg" class="big-song-img rounded img-fluid">
+                        <a href="#">
+                            <div class="big-song-hover ">
+                                <i class="h1 bi bi-play"></i>
+                            </div>
+                        </a>
+                    </div>
+                    <div>
+                        <div class="lead text-white">Starboy</div>
+                        <small class="text-muted">The Weeknd</small>
+                    </div>
+                </div>
+                <!--song card end-->
+
+                <!--song card start-->
+                <div class="m-4" style="width: 200px;">
+                    <div style="position: relative;">
+                        <img src="images/08.jpg" class="big-song-img rounded img-fluid">
+                        <a href="#">
+                            <div class="big-song-hover ">
+                                <i class="h1 bi bi-play"></i>
+                            </div>
+                        </a>
+                    </div>
+                    <div>
+                        <div class="lead text-white">Shayad - Reprise</div>
+                        <small class="text-muted">Arijit Singh</small>
+                    </div>
+                </div>
+                <!--song card end-->
+
+                <!--song card start-->
+                <div class="m-4" style="width: 200px;">
+                    <div style="position: relative;">
+                        <img src="images/09.jpg" class="big-song-img rounded img-fluid">
+                        <a href="#">
+                            <div class="big-song-hover ">
+                                <i class="h1 bi bi-play"></i>
+                            </div>
+                        </a>
+                    </div>
+                    <div>
+                        <div class="lead text-white">End of the road</div>
+                        <small class="text-muted">Millie Bobby Brown</small>
+                    </div>
+                </div>
+                <!--song card end-->
+
+                <!--song card start-->
+                <div class="m-4" style="width: 200px;">
+                    <div style="position: relative;">
+                        <img src="images/11.jpg" class="big-song-img rounded img-fluid">
+                        <a href="#">
+                            <div class="big-song-hover ">
+                                <i class="h1 bi bi-play"></i>
+                            </div>
+                        </a>
+                    </div>
+                    <div>
+                        <div class="lead text-white">Jail aint good</div>
+                        <small class="text-muted">Stranger Things Theme</small>
+                    </div>
+                </div>
+                <!--song card end-->
+
+                <!--song card start-->
+                <div class="m-4" style="width: 200px;">
+                    <div style="position: relative;">
+                        <img src="images/13.jpg" class="big-song-img rounded img-fluid">
+                        <a href="#">
+                            <div class="big-song-hover ">
+                                <i class="h1 bi bi-play"></i>
+                            </div>
+                        </a>
+                    </div>
+                    <div>
+                        <div class="lead text-white">Fix my bike</div>
+                        <small class="text-muted">Dacre Montgomery</small>
+                    </div>
+                </div>
+                <!--song card end-->
+
+                <!--song card start-->
+                <div class="m-4" style="width: 200px;">
+                    <div style="position: relative;">
+                        <img src="images/14.jpg" class="big-song-img rounded img-fluid">
+                        <a href="#">
+                            <div class="big-song-hover ">
+                                <i class="h1 bi bi-play"></i>
+                            </div>
+                        </a>
+                    </div>
+                    <div>
+                        <div class="lead text-white">Journey to the end</div>
+                        <small class="text-muted">Shannon Purser</small>
+                    </div>
+                </div>
+                <!--song card end-->
+
+
+
+            </section>
+            <!-- end category area-->
+
+            <h5 class="song-category-title mx-5 pt-4">Frequently played songs <small class="float-end"><a href="">View more <i class="bi bi-box-arrow-up-right"></i></a></small></h5>
+
+            <!-- start category area-->
+            <section class="pt-2 p-4 mx-5 d-flex justify-content-center" style="flex-wrap: wrap; background-color:background: rgb(81,121,9);
+            background: linear-gradient(90deg, rgba(81,121,9,0.7681197478991597) 29%, rgba(113,3,83,0.8157387955182073) 76%);">
+
+
+                <!--song card start-->
+                <div class="m-4" style="width: 200px;">
+                    <div style="position: relative;">
+                        <img src="images/12.jpg" class="big-song-img rounded img-fluid">
+                        <a href="#">
+                            <div class="big-song-hover ">
+                                <i class="h1 bi bi-play"></i>
+                            </div>
+                        </a>
+                    </div>
+                    <div>
+                        <div class="lead text-white">My love</div>
+                        <small class="text-muted">Alvin Lee</small>
+                    </div>
+                </div>
+                <!--song card end-->
+
+                <!--song card start-->
+                <div class="m-4" style="width: 200px;">
+                    <div style="position: relative;">
+                        <img src="images/15.jpg" class="big-song-img rounded img-fluid">
+                        <a href="#">
+                            <div class="big-song-hover ">
+                                <i class="h1 bi bi-play"></i>
+                            </div>
+                        </a>
+                    </div>
+                    <div>
+                        <div class="lead text-white">I was never there</div>
+                        <small class="text-muted">The Weeknd</small>
+                    </div>
+                </div>
+                <!--song card end-->
+
+                <!--song card start-->
+                <div class="m-4" style="width: 200px;">
+                    <div style="position: relative;">
+                        <img src="images/16.jpg" class="big-song-img rounded img-fluid">
+                        <a href="#">
+                            <div class="big-song-hover ">
+                                <i class="h1 bi bi-play"></i>
+                            </div>
+                        </a>
+                    </div>
+                    <div>
+                        <div class="lead text-white">The Lost Soul Down X Lost soul</div>
+                        <small class="text-muted">NBSPLV</small>
+                    </div>
+                </div>
+                <!--song card end-->
+
+                <!--song card start-->
+                <div class="m-4" style="width: 200px;">
+                    <div style="position: relative;">
+                        <img src="images/17.jpg" class="big-song-img rounded img-fluid">
+                        <a href="#">
+                            <div class="big-song-hover ">
+                                <i class="h1 bi bi-play"></i>
+                            </div>
+                        </a>
+                    </div>
+                    <div>
+                        <div class="lead text-white">BabyDoll
+
+                        </div>
+                        <small class="text-muted">Ari Abdul</small>
+                    </div>
+                </div>
+                <!--song card end-->
+
+                <!--song card start-->
+                <div class="m-4" style="width: 200px;">
+                    <div style="position: relative;">
+                        <img src="images/18.jpg" class="big-song-img rounded img-fluid">
+                        <a href="#">
+                            <div class="big-song-hover ">
+                                <i class="h1 bi bi-play"></i>
+                            </div>
+                        </a>
+                    </div>
+                    <div>
+                        <div class="lead text-white">Night Changes</div>
+                        <small class="text-muted">One Direction</small>
+                    </div>
+                </div>
+                <!--song card end-->
+
+                <!--song card start-->
+                <div class="m-4" style="width: 200px;">
+                    <div style="position: relative;">
+                        <img src="images/19.jpg" class="big-song-img rounded img-fluid">
+                        <a href="#">
+                            <div class="big-song-hover ">
+                                <i class="h1 bi bi-play"></i>
+                            </div>
+                        </a>
+                    </div>
+                    <div>
+                        <div class="lead text-white">Nightcall</div>
+                        <small class="text-muted">dropdown-divider</small>
+                    </div>
+                </div>
+                <!--song card end-->
+
+                <!--song card start-->
+                <div class="m-4" style="width: 200px;">
+                    <div style="position: relative;">
+                        <img src="images/10.jpg" class="big-song-img rounded img-fluid">
+                        <a href="#">
+                            <div class="big-song-hover ">
+                                <i class="h1 bi bi-play"></i>
+                            </div>
+                        </a>
+                    </div>
+                    <div>
+                        <div class="lead text-white">journey to the end</div>
+                        <small class="text-muted">End</small>
+                    </div>
+                </div>
+                <!--song card end-->
+
+            </section>
+            <!-- end category area-->
+
+
+        </main>
+        <!--end main area-->
+
+        <footer class="p-5 pt-4  row bg-dark text-white">
+
+            <div class="col-md-3 mb-4 col-sm-6">
+                <h5>Quick links</h5>
+                <ul class="nav flex-column">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Latest</a></li>
+                    <li><a href="#">Signup</a></li>
+                    <li><a href="#">Login</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 mb-4 col-sm-6">
+                <h5>Quick links</h5>
+                <ul class="nav flex-column">
+                    <li><a href="#">Featured</a></li>
+                    <li><a href="#">New releases</a></li>
+                    <li><a href="#">Signup</a></li>
+                    <li><a href="#">Login</a></li>
+                </ul>
+            </div>
+            <div class="col-md-6 mb-4">
+                <h5>Subscribe to our newsletter</h5>
+                <div>to receive news content</div>
+
+                <div class="input-group mb-3 mt-2">
+                    <input type="text" class="form-control" placeholder="Email">
+                    <span class="bg-primary text-white input-group-text" id="basic-addon2">Subscribe</span>
+                </div>
+
+                <div class="text-white h5 ">
+                    Follow us:
+                    <a href="">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+                    <a href="">
+                        <i class="bi bi-twitter"></i>
+                    </a>
+                    <a href="">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                </div>
+
+            </div>
+        </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- main area-->
+
+        </main>
+
+
+
+
+
+
+
+
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js " integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN " crossorigin="anonymous "></script>
+    </body>
+
+</html>
